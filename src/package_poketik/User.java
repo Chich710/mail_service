@@ -1,8 +1,8 @@
 package package_poketik;
 
 public class User {
-    private String emailAddress;
-    private String userName;
+    private final String emailAddress;
+    private final String userName;
 
     //Конструктор
     public User(String emailAddress, String userName) {
